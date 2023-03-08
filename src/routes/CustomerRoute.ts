@@ -15,7 +15,7 @@ import {
   RequestOtp,
   VerifyOffer,
 } from "../controllers";
-import { Authenticate } from "../middleware";
+import { Authenticate } from "../middlewares";
 import { Offer } from "../models/Offer";
 
 const router = express.Router();
